@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
@@ -10,5 +10,5 @@ let package = Package(
         .target(name: "RequestKit", dependencies: []),
         .testTarget(name: "RequestKitTests", dependencies: ["RequestKit"])
    ],
-   swiftLanguageVersions: [.version("3.0"), .version("4.0"), .version("4.1"), .version("4.2")]
+    swiftLanguageVersions:  [.version("5")]
 )
